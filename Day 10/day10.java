@@ -9,8 +9,6 @@ Input: nums = [-2,0,-1]
 Output: 0
 Explanation: The result cannot be 2, because [-2,-1] is not a subarray.*/
 
-import java.lang.module.ResolutionException;
-
 public class day10{
     public static int maxProduct(int nums[]){
         int currProduct=1;
